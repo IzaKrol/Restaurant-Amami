@@ -1,0 +1,448 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2280px;
+  background-image: url(.);
+  margin: 0px auto;
+}
+
+
+nav {
+  background: rgba(64, 58, 60, 0.84);
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 0px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, .5);
+  z-index: 100;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #d0baac;
+  font-family: 'Shojumaru', cursive;
+}
+
+nav a:hover {
+  color: crimson;
+  transition: all 0.1s ease-in;
+  padding: 0px 0px;
+}
+
+.facebook a img {
+  display: block;
+  position: fixed;
+  transform: rotate(-90deg);
+  right: -26px;
+  top: 120px;
+  height: 30px;
+  width: 82px;
+  border-radius: 8% 8% 0% 0%;
+  z-index: 550;
+}
+
+/* FACEBOOK logo rechter bovenhoek */
+
+/*
+.app {
+  background: #FDFFFC;
+  border-radius: 20%;
+  display: block;
+  height: 35px;
+  width: 35px;
+  left: 95%;
+  top: 65px;
+  position: fixed;
+  opacity: 0.9;
+  text-decoration: none;
+  z-index: 550;
+}
+
+.app:after {
+  color: #43609C;
+  content: "f";
+  display: block;
+  font-family: Facebook Letter Faces, Arial;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 22% 0 0 50%;
+}
+
+.app:hover {
+  -moz-box-shadow: 0px 0px 7px rgba(255, 250, 250, 0.75);
+  -webkit-box-shadow: 0px 0px 7px rgba(255, 250, 250, 0.75);
+  box-shadow: 0px 0px 7px rgba(255, 250, 250, 0.90);
+  cursor: pointer;
+}
+*/
+
+/* Small Amami logo left */
+
+.logo {
+  float: left;
+  margin-top: -25px;
+  margin-left: 10px;
+  z-index: 110;
+}
+
+/* Photo sushi witch chopsticks */
+
+.mainimg {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.99;
+}
+
+.sakura {
+  position: relative;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: -110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Amami word-foto */
+
+#welkom {
+  position: relative;
+  text-align: center;
+  margin-top: -10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  z-index: -150;
+}
+
+/* Stukje over ons */
+
+#overons {
+  text-align: center;
+  width: 80%;
+  background-color: #EFEBE9;
+  border-radius: 20px;
+  padding: 50px 30px 40px 30px;
+  margin-top: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+
+#allyoucaneat {
+  text-align: center;
+  padding: 0px 35px 40px 30px;
+  width: 80%;
+  background-color: #EFEBE9;
+  height: auto;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+
+#openingstijden {
+  text-align: center;
+  padding: 0px 30px 0px 30px;
+  background-color: #EFEBE9;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+
+#prijzen {
+  text-align: center;
+  padding: 0px 30px 0px 30px;
+  background-color: #EFEBE9;
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Shojumaru', cursive;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #CD5C5C;
+  text-align: center;
+}
+
+p {
+  color: #4B3B40;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 17px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.menukaart1 a {
+  text-decoration: none;
+  color: #CD6155;
+}
+
+.menukaart1 {
+  background-color: #CD5C5C;
+  opacity: 0.9;
+  text-align: center;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+  max-width: 450px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.menukaart1 span {
+  font-family: 'Shojumaru', cursive;
+  color: white;
+  font-size: 18px;
+}
+
+.menukaart2 a {
+  text-decoration: none;
+  color: #CD6155;
+}
+
+.menukaart2 {
+  background-color: #593837;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding: 10px 5px 10px 5px;
+  max-width: 450px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.menukaart2 span {
+  font-family: 'Shojumaru', cursive;
+  color: white;
+  font-size: 18px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Lightbox voor de sfeerfoto's */
+
+/*-------------------------------------------------------------------------------- */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+  margin: 10%;
+  margin: 0 auto 20px auto;
+  opacity: 0.92;
+  text-align: center;
+  border-radius: 20px;
+  border: solid 13px #EFEBE9;
+}
+
+.w3-content w3-section {
+  width: calc(100% / 5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 300;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Footer */
+
+/*-------------------------------------------------------------------------------- */
+
+.container2 {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  background-color: #CD5C5C;
+}
+
+.container2 p {
+  text-align: center;
+  padding-top: 30px;
+  color: #F6EADB;
+  font-size: 17px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.container2 span {
+  color: #495060;
+}
+
+.container2 a {
+  text-decoration: none;
+  color: #F6EADB;
+}
+
+/*-------------------------------------------------------------------------------- */
+
+/* Contact Form*/
+
+/*-------------------------------------------------------------------------------- */
+
+.contact-form h2 {
+  font-family: 'Shojumaru', cursive;
+  font-size: 22px;
+  padding-bottom: 0px;
+  color: #EFEBE9;
+  text-align: center;
+}
+
+.contact-form p {
+  padding-top: 16vh;
+  margin-bottom: 100px;
+  text-shadow: 0px 5px grey;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 25px;
+  font-weight: 700;
+  color: #4B3B40;
+}
+
+.contact-form input {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 40px;
+  padding: 0 3%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #EFEBE9;
+  box-shadow: 0px 3px 0px 0px #9e9797;
+  font-size: 18px;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 400;
+  color: #4B3B40;
+}
+
+.contact-form textarea {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 200px;
+  padding: 10px 3%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #EFEBE9;
+  box-shadow: 0px 3px 0px 0px #9e9797;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Cutive Mono', monospace;
+  color: #4B3B40;
+  resize: none;
+}
+
+.contact-form button {
+  display: block;
+  width: 30%;
+  height: 40px;
+  margin: 10px auto 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #608286;
+  font-size: 20px;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 600;
+  color: #FFFFFF;
+  box-shadow: 0px 5px 0px 0px #6fb98f;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  box-shadow: 0px 5px 0px 0px transparent;
+  position: relative;
+  top: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4B3B40;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #4B3B40;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #4B3B40;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #4B3B40;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0px 3px 0px 0px transparent;
+  position: relative;
+  top: 3px;
+}
+
+
+/* google maps*/
+
+.container2 iframe {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2), 8px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: solid 15px white;
+}
+
+.gototop a {
+  font-family: 'Shojumaru', cursive;
+  font-size: 30px;
+  color: #F6EADB;
+}
+
+.copyright {
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.copyright span {
+  font-size: 12px;
+}
